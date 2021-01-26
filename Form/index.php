@@ -21,7 +21,7 @@
                 <input type="radio" name="I3"/>Reading
                 <input type="radio" name="I4"/>Dance
                 <input type="radio" name="I5"/>Singing<br>
-            <input type="button" value="submit"/>
+            <button class="submit" type="submit" value="submit">SUBMIT</button></td></tr>
         </form>
 
         <?php 
