@@ -15,7 +15,7 @@
         <form method="POST" action="sum.php">
             Variable1 <input type="text" name="var1" >
             Variable2 <input type="text" name="var2" >
-            <button class="submit" type="submit" value="submit">SUBMIT</button></td></tr>   	
+            <button class="submit" type="submit" value="submit" name="submit">SUBMIT</button></td></tr>   	
          	
         </form>
     </body>

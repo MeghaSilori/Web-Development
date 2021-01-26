@@ -21,18 +21,21 @@
                 <input type="radio" name="I3"/>Reading
                 <input type="radio" name="I4"/>Dance
                 <input type="radio" name="I5"/>Singing<br>
-            <button class="submit" type="submit" value="submit">SUBMIT</button></td></tr>
+            <button class="submit" type="submit" name="submit" value="submit">SUBMIT</button></td></tr>
         </form>
 
         <?php 
+        if(isset($_POST['submit'])){
             $nm= $_POST['name'];
             $ml= $_POST['mail'];
             $ct= $_POST['contact'];
             $cty= $_POST['city'];
             $crse= $_POST['course'];
-           
-
             echo "$nm $ml";
+        }
+        else{
+            echo "No input";
+        }
         ?>
     </body>
 </html>
