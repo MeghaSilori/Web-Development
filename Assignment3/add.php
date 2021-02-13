@@ -24,7 +24,7 @@ else{
         <form method="POST" action="add.php">
             UserName*<input type="text" name="username" placeholder="First Name" required/><br>
             E-mail*<input type="email" name="email" placeholder="Mail@example.com"required/><br>
-            Gender*  Male <input type="radio" name="gender" value="male">
+            Gender  Male <input type="radio" name="gender" value="male">
             Female <input type="radio" name="gender" value="female"><br>
             City*<Select name="city" required>
                 <option value="Dehradun"> Dehradun</option>
