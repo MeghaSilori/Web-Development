@@ -4,7 +4,7 @@
         echo "sum of two variable is $sum ";
     }
     else{
-        echo "No input";
+        echo "No input"; 
     }
 ?>
 <html>
