@@ -38,8 +38,8 @@ include('config.php');
         <form method="POST" action="edit.php?id=<?php echo "$id"?>">
             UserName*<input type="text" name="username" value=<?php echo "$username" ?> placeholder="First Name" required/><br>
             E-mail*<input type="email" name="email" value=<?php echo "$email" ?> placeholder="Mail@example.com"required/><br>
-            Gender  Male <input type="radio" name="gender" value="male">
-            Female <input type="radio" name="gender" value="female"><br>
+            Gender  Male <input type="radio" name="gender" value="male" <?php if($gender=="male"){echo "checked";}?>>
+            Female <input type="radio" name="gender" value="female" <?php if($gender=="female"){echo "checked";}?>><br>
             City*<Select name="city" required>
                 <option value="Dehradun"<?php if($city=="Dehradun"){echo "selected";}?>> Dehradun</option>
                 <option value="Delhi"<?php if($city=="Delhi"){echo "selected";}?>> Delhi</option>
