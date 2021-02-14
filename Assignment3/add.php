@@ -32,6 +32,8 @@ else{
                 <option value="Chandigarh"> Chandigarh</option>
                 <option value="Mumbai"> Mumbai</option>
                 <option value="Kolkata"> Kolkata</option>
+                <option value="Chennai"> Chennai</option>
+                <option value="Jaipur"> Jaipur</option>
                 <option value="NULL"> Other</option>
                 </Select><br>
             <input type="submit" name="submit" value="Click here to submit">
