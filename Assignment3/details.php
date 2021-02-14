@@ -10,9 +10,11 @@ include_once('config.php');
             <thead>
                 <tr>
                     <th>UserName</th>
-                    <th>Gender</th>
                     <th>E-Mail</th>
+                    <th>Gender</th>
                     <th>City</th>
+                    <th>Edit</th>
+				    <th>Delete</th>
                 </tr>
             </thead>
             <tbody>
@@ -21,9 +23,13 @@ include_once('config.php');
                 ?>
                         <tr>
                             <td><?php echo $row[1]?></td>
-                            <td><?php echo $row[3]?></td>
                             <td><?php echo $row[2]?></td>
+                            <td><?php echo $row[3]?></td>
                             <td><?php echo $row[4]?></td>
+                            <td><a href="edit.php?id=<?php echo $row[0]?>">
+				            <input type="button" value="Edit"></a></td>
+				            <td><a href="delete.php?id=<?php echo $row[0]?>">
+				            <input type="button" value="Delete"></a></td>
                         </tr>
                 <?php
                     }
